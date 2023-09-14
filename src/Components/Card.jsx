@@ -69,10 +69,9 @@ const Card = (prop) => {
           </div>
           <div className="right">
             <img src={tomato} alt="tomato" />
-            <p>90%</p>
+            <p>68%</p>
           </div>
         </div>
-        <p className="category">Category</p>
       </div>
     </div>
     </Link>

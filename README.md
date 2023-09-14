@@ -1,70 +1,285 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+  <br/>
 
-In the project directory, you can run:
+  <h3><b>Movies box</b></h3>
 
-### `npm start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 📗 Table of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Usage](#usage)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [🤝 Contributing](#contributing)
+- [⭐ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 
-### `npm test`
+# Movies box📖 <a name="about-project"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In this project, we will be working with real live data from the TMDB API. Our task is to build a web application that allows users to discover movies, search for them by title, view movie details, and save their favorite movies.
 
-### `npm run build`
+### Key Features <a name="key-features"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Responsive UI with a grid layout for movie posters.
+- Movie search by title with loading indicator.
+- Detailed movie information including title, release date, and runtime.
+- Integration with the TMDB API for real-time movie data.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Built With <a name="built-with"></a>
 
-### `npm run eject`
+- HTML.
+- css.
+- JavaScript.
+- React
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Key Features <a name="key-features"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React front-end framework
+- Git-flow
+- Es6 module
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ ## 🚀 Live Demo <a name="live-demo"></a>
 
-## Learn More
+- [You can check the live demo here](https://hngx-movieapp-5tho.vercel.app/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+##  Getting Started <a name="getting-started"></a>
 
-### Code Splitting
+1. Install git, if you already have git installed skip this step.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. Open the command terminal
 
-### Analyzing the Bundle Size
+3. Navigate to the directory you want the remote directory to be cloned to
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+4. Go to the GitHub and copy the URL of the repository
 
-### Making a Progressive Web App
+5. Clone the repository by typing git clone the URL copied in step 4 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+6. Hit enter on the keyboard
 
-### Advanced Configuration
+7. Navigate to the copy of your cloned repository using the cd command <code>cd hngx-movieapp</code>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Prerequisites
 
-### Deployment
+In order to run this project you need:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Basic knowledge of HTML, CSS, JavaScript, and the code editor of your choice.
+- Basic knowledge of the computer operating system.
 
-### `npm run build` fails to minify
+### Setup <a name="setup"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Clone this repository to your desired folder:
+
+# Usage <a name="usage"></a>
+
+## To run the project, execute the following command:
+
+### npm install
+
+To install all the dependencies used in the project: <code>npm install</code>
+
+### npm run build
+
+To build this project from the source folder using webpack: <code> npm run build </code>
+
+### npm run start
+
+In order to start a server and deploy the project locally: <code> npm run start </code>
+
+### Run tests
+
+In order to run the tests, use the following command: <code> npm run test </code>
+
+### Deployment <a name="triangular_flag_on_post-deployment"></a>
+
+You can deploy this project using: GitHub pages or any host of your choice
+
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐ Show your support <a name="support"></a>
+
+If you like this project please give it a ⭐.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank HNGx for the opportunity to learn how to set up this project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- How will I set this project in a local machine
+
+  - Run the following command in the terminal: git clone https://github.com/Power70/hngx-task02.git
+
+- Which code editor should I use
+
+  - You can use any editor of your choice but I recommend vs. code.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p><a name="readme-top"></a>
+
+<div align="center">
+
+  <br/>
+
+  <h3><b>Movies box</b></h3>
+
+</div>
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Usage](#usage)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [🤝 Contributing](#contributing)
+- [⭐ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+
+# Movies box📖 <a name="about-project"></a>
+
+In this project, we will be working with real live data from the TMDB API. Our task is to build a web application that allows users to discover movies, search for them by title, view movie details, and save their favorite movies.
+
+### Key Features <a name="key-features"></a>
+
+- Responsive UI with a grid layout for movie posters.
+- Movie search by title with loading indicator.
+- Detailed movie information including title, release date, and runtime.
+- Integration with the TMDB API for real-time movie data.
+
+
+## Built With <a name="built-with"></a>
+
+- HTML.
+- css.
+- JavaScript.
+- React
+
+### Key Features <a name="key-features"></a>
+
+- React front-end framework
+- Git-flow
+- Es6 module
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+ ## 🚀 Live Demo <a name="live-demo"></a>
+
+- [You can check the live demo here](https://hngx-movieapp-5tho.vercel.app/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+##  Getting Started <a name="getting-started"></a>
+
+1. Install git, if you already have git installed skip this step.
+
+2. Open the command terminal
+
+3. Navigate to the directory you want the remote directory to be cloned to
+
+4. Go to the GitHub and copy the URL of the repository
+
+5. Clone the repository by typing git clone the URL copied in step 4 
+
+6. Hit enter on the keyboard
+
+7. Navigate to the copy of your cloned repository using the cd command <code>cd hngx-movieapp</code>
+
+### Prerequisites
+
+In order to run this project you need:
+
+- Basic knowledge of HTML, CSS, JavaScript, and the code editor of your choice.
+- Basic knowledge of the computer operating system.
+
+### Setup <a name="setup"></a>
+
+Clone this repository to your desired folder:
+
+# Usage <a name="usage"></a>
+
+## To run the project, execute the following command:
+
+### npm install
+
+To install all the dependencies used in the project: <code>npm install</code>
+
+### npm run build
+
+To build this project from the source folder using webpack: <code> npm run build </code>
+
+### npm run start
+
+In order to start a server and deploy the project locally: <code> npm run start </code>
+
+### Run tests
+
+In order to run the tests, use the following command: <code> npm run test </code>
+
+### Deployment <a name="triangular_flag_on_post-deployment"></a>
+
+You can deploy this project using: GitHub pages or any host of your choice
+
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ⭐ Show your support <a name="support"></a>
+
+If you like this project please give it a ⭐.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank HNGx for the opportunity to learn how to set up this project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+- How will I set this project in a local machine
+
+  - Run the following command in the terminal: git clone https://github.com/Power70/hngx-task02.git
+
+- Which code editor should I use
+
+  - You can use any editor of your choice but I recommend vs. code.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

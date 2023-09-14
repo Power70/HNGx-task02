@@ -251,6 +251,7 @@ a {
   font-weight: 500;
   line-height: 18px;
 }
+
 .card_moon {
   width: 30px;
   height: 30px;
@@ -282,24 +283,6 @@ a {
   justify-content: center;
   align-items: center;
   gap: 10px;
-}
-
-.moviebg{
-  background-image: url(./components/Images/moviesbg.svg);
-  background-repeat: no-repeat;
-  background-size: cover; /* Use 'cover' to make the image cover the entire container */
-  background-position: center; /* Center the background image horizontally and vertically */
-}
-
-.ad{
-  background-image: url(./components/Images/adbg.svg);
-  background-repeat: no-repeat;
-  background-size: cover; 
-  background-position: center; 
-  display: flex;
-  flex-direction: column;
-  height: 30%;
-  width: 25%;
 }
 
 .seemore{

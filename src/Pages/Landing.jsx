@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Backdrop from '@mui/material/Backdrop';
-import CircularProgress from '@mui/material/CircularProgress';
+import Backdrop from "@mui/material/Backdrop";
+import CircularProgress from "@mui/material/CircularProgress";
 import logo from "../Components/Images/logo.svg";
 import searche from "../Components/Images/search.svg";
 import axios from "axios";
@@ -34,8 +34,6 @@ const searchMovie = (searchQuery, setUrl) => {
   const apikey = "?api_key=05826967c84a2ac26f3ed4c72f50e983";
   const newUrl = `${baseUrl}/search/movie${apikey}&query=${searchQuery}`;
   setUrl(newUrl);
-  // setSearch('');
-
   return newUrl;
 };
 
@@ -60,17 +58,17 @@ const Landing = ({ searchResult }) => {
     setOpen(false);
   };
 
- const handleOpenloader = () => {
-  setOpen(true);
-  setTimeout(() => {
-    handleCloseloader();
-  }, 2000);
-};
+  const handleOpenloader = () => {
+    setOpen(true);
+    setTimeout(() => {
+      handleCloseloader();
+    }, 2000);
+  };
 
   const handleSearchKeyPress = (e) => {
     if (e.keyCode === 13) {
-        handleOpenloader()
-      e.preventDefault(); // Prevent the default form submission behavior
+      handleOpenloader();
+      e.preventDefault(); 
 
       const options = {
         method: "GET",
@@ -85,8 +83,7 @@ const Landing = ({ searchResult }) => {
       axios
         .request(options)
         .then(function (response) {
-          // console.log(response.data.results);
-          searchResult(response.data.results);
+          searchResult(response.data.results.splice(0, 10));
         })
         .catch(function (error) {
           console.error(error);
@@ -96,9 +93,10 @@ const Landing = ({ searchResult }) => {
 
   return (
     <div className="header">
-        <Backdrop
-        sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
-        open={open}>
+      <Backdrop
+        sx={{ color: "#fff", zIndex: (theme) => theme.zIndex.drawer + 1 }}
+        open={open}
+      >
         <CircularProgress color="inherit" />
       </Backdrop>
       <nav>
@@ -125,7 +123,9 @@ const Landing = ({ searchResult }) => {
       <div className="content">
         <div className="content-left">
           <div className="ch">
-            <h1>John Wick 3 : <br /> Parabellum</h1>
+            <h1>
+              John Wick 3 : <br /> Parabellum
+            </h1>
             <div className="rating">
               <div className="left">
                 <img src={imdb} alt="imdb" />
